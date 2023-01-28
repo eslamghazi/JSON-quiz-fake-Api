@@ -1,11 +1,12 @@
 ## Deploy JSON Server to Vercel
 
-A template to deploy [JSON Server](https://github.com/typicode/json-server) to [Vercel](https://vercel.com), allow you to run fake REST API online!
+A template to deploy [JSON Server](https://github.com/typicode/json-server)
+
+to allow you to run fake REST API online!
 
 Demo from this repository: 
 
-1. https://json-server-in.vercel.app
-2. https://json-server-in.vercel.app/api/posts
+1. https://json-quiz-fake-api.onrender.com/
 
 ### How to use
 
