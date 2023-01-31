@@ -1,102 +1,87 @@
 {
   "students": [
     {
-      "username": "test",
-      "email": "test@test.com",
-      "password": "123",
+      "username": "student",
+      "email": "student@student.com",
+      "password": "12345",
       "subjects": [
         {
-          "name": "اللغة العربية",
+          "name": "رياضيات",
+          "id": "1",
+          "degree": 1,
+          "finalDegree": 2
+        },
+        {
+          "name": "لغة انجليزية",
           "id": "2",
-          "degree": 0
+          "degree": 1,
+          "finalDegree": 2
         }
       ],
       "id": 1
     },
     {
-      "username": "Mohamed",
-      "email": "mohamed@gmail.com",
-      "password": "123",
-      "subjects": [
-        {
-          "name": "الرياضيات",
-          "id": "1",
-          "degree": 1
-        },
-        {
-          "name": "اللغة العربية",
-          "id": "2",
-          "degree": 0
-        }
-      ],
+      "username": "eslam",
+      "email": "eslam@eslam.com",
+      "password": "12345",
       "id": 2
     },
     {
-      "username": "Ali",
-      "email": "ali@gmail.com",
-      "password": "123",
+      "username": "hassan",
+      "email": "hassan@hassan.com",
+      "password": "12345",
       "id": 3
-    },
-    {
-      "username": "Ahmed",
-      "email": "ahmed@gmail.com",
-      "password": "123",
-      "subjects": [
-        {
-          "name": "الرياضيات",
-          "id": "1",
-          "degree": 2
-        },
-        {
-          "name": "اللغة العربية",
-          "id": "2",
-          "degree": 1
-        }
-      ],
-      "id": 4
     }
   ],
   "doctor": [
     {
-      "username": "admin",
-      "email": "admin@admin.com",
-      "password": "123",
+      "username": "doctor",
+      "email": "doctor@doctor.com",
+      "password": "12345",
       "id": 1
     }
   ],
   "subjects": [
     {
-      "name": "الرياضيات",
+      "name": "رياضيات",
       "questions": [
         {
-          "question": "2*2",
-          "answer1": "4",
-          "answer2": "6",
-          "answer3": "8",
-          "answer4": "3",
-          "correctAnswer": "4"
+          "question": "2*5",
+          "answer1": "10",
+          "answer2": "40",
+          "answer3": "20",
+          "answer4": "30",
+          "correctAnswer": "10"
         },
         {
-          "question": "5+20",
-          "answer1": "25",
-          "answer2": "35",
-          "answer3": "30",
-          "answer4": "40",
-          "correctAnswer": "25"
+          "question": "1*2",
+          "answer1": "8",
+          "answer2": "45",
+          "answer3": "16",
+          "answer4": "2",
+          "correctAnswer": "2"
         }
       ],
       "id": 1
     },
     {
-      "name": "اللغة العربية",
+      "name": "لغة انجليزية",
       "questions": [
         {
-          "question": "تيست",
-          "answer1": "تيتسن",
-          "answer2": "يبل",
-          "answer3": "يبلي",
-          "answer4": "يبلي",
-          "correctAnswer": "تيتسن"
+          "question": "what about the first oscar for you?",
+          "answer1": "fuck you",
+          "answer2": "aa",
+          "answer3": "bb",
+          "answer4": "cc",
+          "correctAnswer": "fuck you"
+        },
+        {
+          "question": "edhdhf",
+          "answer1": "dhfhdhf",
+          "answer2": "hdhfhd",
+          "answer3": "fhdhdfdh",
+          "answer4": "hfhd",
+          "correctAnswer": "fhdhdfdh"
         }
       ],
       "id": 2
@@ -104,6 +89,9 @@
   ],
   "login": [
     {
+      "username": "student",
+      "type": "students",
+      "userId": 1,
       "id": 1
     }
   ]
